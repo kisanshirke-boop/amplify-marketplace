@@ -21,7 +21,15 @@ Every repository created by the Studio contains `.claude/settings.json` with:
 "enabledPlugins": { "amplify@amplify-marketplace": true }
 ```
 
-When the developer trusts the project folder in Claude Code, the marketplace is added and the plugin is offered for install.
+That switches the plugin on for the project, but Claude Code does not download it by itself. Each developer installs it
+once per laptop, from the project folder:
+
+```
+claude plugin install amplify --marketplace kisanshirke-boop/amplify-marketplace --scope project
+```
+
+or, inside a Claude Code session: `/plugin install amplify --marketplace kisanshirke-boop/amplify-marketplace`.
+Check with `claude plugin list` – `amplify@amplify-marketplace` must show `Status: ✔ enabled`.
 
 ## Changing the rails
 
