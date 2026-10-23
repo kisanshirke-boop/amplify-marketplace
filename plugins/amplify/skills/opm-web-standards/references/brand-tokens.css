@@ -1,0 +1,42 @@
+/* =====================================================================
+   OPmobility brand tokens for internal web applications
+   ---------------------------------------------------------------------
+   STATUS: PLACEHOLDER VALUES - CONFIRM BEFORE PRODUCTION USE.
+   These values follow the navy/blue palette used in D&IS documents.
+   Confirm them against the official OPmobility brand guidelines
+   (Group Communications) or the public site www.opmobility.com
+   (Edge > right-click a heading > Inspect > Styles shows colour and font).
+   Change values HERE only; every screen uses these variables.
+   ===================================================================== */
+:root {
+  /* Colours */
+  --opm-navy: #0B2D5B;          /* header, headings */
+  --opm-blue: #0072CE;          /* primary actions, links */
+  --opm-blue-dark: #005BA6;     /* primary hover */
+  --opm-sky: #E8F0FA;           /* selected rows, info backgrounds */
+  --opm-ink: #1F2937;           /* body text */
+  --opm-muted: #6B7280;         /* secondary text */
+  --opm-line: #DDE3EC;          /* borders, table lines */
+  --opm-bg: #F4F6F9;            /* page background */
+  --opm-white: #FFFFFF;
+  --opm-success: #1E8E4E;
+  --opm-success-bg: #E9F7EF;
+  --opm-danger: #C62828;
+  --opm-danger-bg: #FDECEC;
+  --opm-warning-bg: #FFF4E0;
+
+  /* Typography (system fonts: no download needed, works offline) */
+  --opm-font: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --opm-font-size: 15px;
+  --opm-h1: 26px;
+  --opm-h2: 19px;
+
+  /* Shape and spacing */
+  --opm-radius: 6px;
+  --opm-space-1: 4px;
+  --opm-space-2: 8px;
+  --opm-space-3: 16px;
+  --opm-space-4: 24px;
+  --opm-space-5: 32px;
+  --opm-shadow: 0 1px 3px rgba(11, 45, 91, 0.12);
+}
