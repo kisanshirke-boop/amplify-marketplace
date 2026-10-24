@@ -10,5 +10,6 @@ The arguments name the approver, e.g. `/amplify:record-g1 QI-015 accepted by Jan
 3. Add a Version history row. Change nothing else.
 4. Commit only intent.md: `approve(G1): intent <ID> v1.0 accepted by <name>`
 5. Show the Document control table and the commit hash.
+First check the document: if its Document control already shows Status "Accepted" with an approver and date (the decision was recorded in Amplify AI Build Studio), run `git pull`, say so, change nothing and stop.
 
 Arguments: $ARGUMENTS

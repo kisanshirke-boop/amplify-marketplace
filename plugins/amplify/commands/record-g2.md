@@ -7,5 +7,6 @@ The arguments must name the approvers (Product Owner and Architect). If not, STO
 1. Check intent.md is Accepted and no decision is open in spec.md. If not, stop and list what is open.
 2. Set spec.md Version 1.0, Status "Approved", approvers and date as given; Version history row; nothing else.
 3. Commit only spec.md: `approve(G2): spec <ID> v1.0 approved by <names>`
+First check the document: if its Document control already shows Status "Approved" with an approver and date (the decision was recorded in Amplify AI Build Studio), run `git pull`, say so, change nothing and stop.
 
 Arguments: $ARGUMENTS

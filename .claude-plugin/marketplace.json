@@ -7,7 +7,7 @@
       "name": "amplify",
       "source": "./plugins/amplify",
       "description": "Amplify rails: /amplify commands, opm-web-standards skill, verifier subagent, G4 and activity-log hooks",
-      "version": "1.3.0"
+      "version": "1.3.1"
     }
   ]
 }
